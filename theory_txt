@@ -1,4 +1,5 @@
-TF-IDF stands for Term Frequency-Inverse Document Frequency. It’s a technique used in Natural Language Processing (NLP) to convert text into numerical values (vectorization)— especially useful for machine learning models, including content-based recommenders.
+TF-IDF stands for Term Frequency-Inverse Document Frequency. It’s a technique used in Natural Language Processing (NLP)
+to convert text into numerical values (vectorization)— especially useful for machine learning models, including content-based recommenders.
 
 🔍 What does it do?
 TF-IDF helps measure how important a word is in a document compared to all the other documents in a collection (like all movie overviews).
@@ -28,4 +29,6 @@ Open project folder in pycharm!
 (website design).. using 
 streamlit, pickel, tmdb(movies data)
 
-Always open streamlit/using documentation at side to get all the required code
+Always open streamlit/using documentation at side to get all the required code.
+
+pipeline: set of work steps/data in running a project
