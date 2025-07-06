@@ -1,0 +1,31 @@
+TF-IDF stands for Term Frequency-Inverse Document Frequency. It’s a technique used in Natural Language Processing (NLP) to convert text into numerical values (vectorization)— especially useful for machine learning models, including content-based recommenders.
+
+🔍 What does it do?
+TF-IDF helps measure how important a word is in a document compared to all the other documents in a collection (like all movie overviews).
+
+💡 TF-IDF = TF × IDF
+TF (Term Frequency) – How often a word appears in a single document (e.g., one movie's description).
+
+IDF (Inverse Document Frequency) – How unique or rare that word is across all documents.
+
+✅ Why use it in a Movie Recommender?
+In your app: You extract text features (like movie overviews, tags, etc.).
+
+TF-IDF helps find similar movies by comparing the importance of keywords in each movie's description.
+
+Then you use cosine similarity to measure how close two movie vectors are — and recommend similar ones.
+
+🔧 Example:
+If the word “love” appears in almost every movie overview, its importance is low (IDF is low).
+But if “cyberpunk” appears only in a few, it gets a higher weight — great for genre-specific recommendations.
+-------------------------------------------------------------------------------------------------------------------
+Pycharm deployment 
+(Open cmd through project folder, run )
+-> Python -m venv venv  
+This creates virtual env (easy to deploy)
+
+Open project folder in pycharm!
+(website design).. using 
+streamlit, pickel, tmdb(movies data)
+
+Always open streamlit/using documentation at side to get all the required code
